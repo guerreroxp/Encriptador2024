@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/logo.png" alt="Logo" class="logo"> <!-- Logo exportado de Figma -->
+            <h1>Encriptador de Textos</h1>
+        </header>
+        <div class="content">
+            <div class="input-section">
+                <textarea id="inputText" placeholder="Ingrese texto aquí..."></textarea>
+            </div>
+            <div class="output-section">
+                <textarea id="outputText" placeholder="Ningún mensaje encontrado" readonly></textarea>
+                <img src="assets/lupa.png" alt="Lupa" class="lupa">
+                <p>Ingresa el texto para encriptar o desencriptar.</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="desencriptar()">Desencriptar</button>
+            <button onclick="copiarTexto()">Copiar</button>
+        </div>
+        <footer>
+            <p>#Acerca de:</p>
+            <p>¡Hola! Soy Christian Guzmán, Educador Certificado de Google y apasionado por la enseñanza y la programación.</p>
+            <p>🌱 Actualmente me encuentro enseñando en el Colegio Andrés Bello Pampa y colaborando en diversos proyectos educativos.</p>
+            <p>💬 Estoy interesado en aprender y compartir conocimientos sobre tecnología y programación con todos.</p>
+            <p>📫 Puedes contactarme a través de mi correo electrónico: <a href="mailto:guerreroxp@gmail.com">guerreroxp@gmail.com</a> o seguirme en X, Instagram o Facebook: @guerreroxp.</p>
+            <a href="mailto:guerreroxp@gmail.com"><img src="assets/logo2.svg" alt="Logo de contacto" class="logo2"></a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
