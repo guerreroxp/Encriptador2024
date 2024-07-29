@@ -44,4 +44,4 @@ Este proyecto no hubiera sido posible sin la ayuda de las siguientes personas y 
 
 📫 Puedes contactarme a través de mi correo electrónico: [guerreroxp@gmail.com](mailto:guerreroxp@gmail.com) o seguirme en X, Instagram o Facebook: @guerreroxp.
 
-![Logo de contacto](assets/logo2.png)
+![Logo de contacto](assets/logo2.svg)
